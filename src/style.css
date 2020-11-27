@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+/* the body */
+
+.move-div{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+}
+
+#move-div-two{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* end the body */
+
+
+/* this is button group */
+.btn-group{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,-100%)
+}
+
+
+.btn{
+    margin: 10px 10px 2px 0px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid transparent;
+    background-color: crimson;
+    color: black;
+    border-radius: 10px;
+    transform: translate(0px,0px);
+    transition: all 0.4s linear;
+}
+
+.btn:hover{
+    background-color: black;
+    color: crimson;
+    border: 1px solid crimson;
+    transform: translate(0px,-10px);
+}
+/* end button group */
